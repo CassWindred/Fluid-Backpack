@@ -1,15 +1,239 @@
 This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.
 
-#################################################
-         ForgeGradle 2.3-SNAPSHOT-6084129e        
-  https://github.com/MinecraftForge/ForgeGradle  
-#################################################
-                 Powered by MCP                  
-             http://modcoderpack.com             
-     by: Searge, ProfMobius, R4wk, ZeuX          
-     Fesh0r, IngisKahn, bspkrs, LexManos         
-#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 1108/1305   84%
+:makeStart
+:runClient
+[01:15:07] [main/INFO] [GradleStart]: Extra: []
+[01:15:07] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/TomCass/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[01:15:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:15:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:15:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:15:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:15:07] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[01:15:07] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_241\jre
+[01:15:07] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[01:15:07] [main/ERROR] [FML]: Full: C:\Users\TomCass\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[01:15:07] [main/ERROR] [FML]: Trimmed: c:/users/tomcass/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[01:15:07] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[01:15:07] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2020-03-30 01:15:08,328 main WARN Disabling terminal, you're running in an unsupported environment.
+[01:15:08] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[01:15:08] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[01:15:08] [main/INFO] [FML]: Searching C:\Users\TomCass\Documents\Testing Forge Client\.\mods for mods
+[01:15:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:15:08] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[01:15:08] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[01:15:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:15:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:15:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:15:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:15:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:15:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:15:08] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[01:15:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:15:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:15:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:15:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:15:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:15:09] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:15:09] [main/INFO] [minecraft/Minecraft]: Setting user: Player562
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.pickItem:key.mouse.middle
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.playerlist:key.keyboard.tab
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.advancements:key.keyboard.l
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.5:key.keyboard.5
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.6:key.keyboard.6
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.7:key.keyboard.7
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.8:key.keyboard.8
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.1:key.keyboard.1
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.2:key.keyboard.2
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.3:key.keyboard.3
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.4:key.keyboard.4
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.sprint:key.keyboard.left.control
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.forward:key.keyboard.w
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.drop:key.keyboard.q
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.back:key.keyboard.s
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.attack:key.mouse.left
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.use:key.mouse.right
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.saveToolbarActivator:key.keyboard.c
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.smoothCamera:key.keyboard.unknown
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.right:key.keyboard.d
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.jump:key.keyboard.space
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.sneak:key.keyboard.left.shift
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.spectatorOutlines:key.keyboard.unknown
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.left:key.keyboard.a
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.command:key.keyboard.slash
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.screenshot:key.keyboard.f2
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.9:key.keyboard.9
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.togglePerspective:key.keyboard.f5
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.chat:key.keyboard.t
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.inventory:key.keyboard.e
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.fullscreen:key.keyboard.f11
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.loadToolbarActivator:key.keyboard.x
+[01:15:11] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.swapHands:key.keyboard.f
+[01:15:11] [main/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[01:15:12] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 260305384 bytes (248 MB) / 589824000 bytes (562 MB) up to 3804758016 bytes (3628 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 441.41' Renderer: 'GeForce GTX 780 Ti/PCIe/SSE2'
+[01:15:12] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[01:15:12] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:15:12] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[01:15:12] [main/INFO] [FML]: Searching C:\Users\TomCass\Documents\Testing Forge Client\.\mods for mods
+[01:15:13] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[01:15:13] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, fluidbackpack] at CLIENT
+[01:15:13] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, fluidbackpack] at SERVER
+[01:15:13] [main/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fluid Backpack
+[01:15:14] [main/INFO] [FML]: Processing ObjectHolder annotations
+[01:15:14] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[01:15:14] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:15:14] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:15:14] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:15:14] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:15:14] [main/INFO] [FML]: Applying holder lookups
+[01:15:14] [main/INFO] [FML]: Holder lookups applied
+[01:15:14] [main/INFO] [FML]: Applying holder lookups
+[01:15:14] [main/INFO] [FML]: Holder lookups applied
+[01:15:14] [main/INFO] [FML]: Applying holder lookups
+[01:15:14] [main/INFO] [FML]: Holder lookups applied
+[01:15:14] [main/INFO] [FML]: Applying holder lookups
+[01:15:14] [main/INFO] [FML]: Holder lookups applied
+[01:15:14] [main/INFO] [FML]: Injecting itemstacks
+[01:15:14] [main/INFO] [FML]: Itemstack injection complete
+[01:15:14] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[01:15:14] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 283610800 nanos
+[01:15:17] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[01:15:17] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[01:15:17] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:15:17] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[01:15:17] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[01:15:21] [main/INFO] [FML]: Max texture size: 16384
+[01:15:22] [main/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
+[01:15:23] [main/INFO] [FML]: Applying holder lookups
+[01:15:23] [main/INFO] [FML]: Holder lookups applied
+[01:15:23] [main/INFO] [fluidbackpack]: DIRT BLOCK >> minecraft:dirt
+[01:15:23] [main/INFO] [FML]: Injecting itemstacks
+[01:15:23] [main/INFO] [FML]: Itemstack injection complete
+[01:15:23] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.pickItem:key.mouse.middle
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.playerlist:key.keyboard.tab
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.advancements:key.keyboard.l
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.5:key.keyboard.5
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.6:key.keyboard.6
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.7:key.keyboard.7
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.8:key.keyboard.8
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.1:key.keyboard.1
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.2:key.keyboard.2
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.3:key.keyboard.3
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.4:key.keyboard.4
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.sprint:key.keyboard.left.control
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.forward:key.keyboard.w
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.drop:key.keyboard.q
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.back:key.keyboard.s
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.attack:key.mouse.left
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.use:key.mouse.right
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.saveToolbarActivator:key.keyboard.c
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.smoothCamera:key.keyboard.unknown
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.right:key.keyboard.d
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.jump:key.keyboard.space
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.sneak:key.keyboard.left.shift
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.spectatorOutlines:key.keyboard.unknown
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.left:key.keyboard.a
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.command:key.keyboard.slash
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.screenshot:key.keyboard.f2
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.hotbar.9:key.keyboard.9
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.togglePerspective:key.keyboard.f5
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.chat:key.keyboard.t
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.inventory:key.keyboard.e
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.fullscreen:key.keyboard.f11
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.loadToolbarActivator:key.keyboard.x
+[01:15:23] [main/WARN] [minecraft/GameSettings]: Skipping bad option: key_key.swapHands:key.keyboard.f
+[01:15:23] [main/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[01:15:24] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[01:15:28] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[01:15:28] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+[01:15:28] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[01:15:28] [Server thread/INFO] [FML]: Applying holder lookups
+[01:15:28] [Server thread/INFO] [FML]: Holder lookups applied
+[01:15:28] [Server thread/INFO] [FML]: Loading dimension 0 (Testing) (net.minecraft.server.integrated.IntegratedServer@447d757a)
+[01:15:29] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 488 advancements
+[01:15:29] [Server thread/INFO] [FML]: Loading dimension -1 (Testing) (net.minecraft.server.integrated.IntegratedServer@447d757a)
+[01:15:29] [Server thread/INFO] [FML]: Loading dimension 1 (Testing) (net.minecraft.server.integrated.IntegratedServer@447d757a)
+[01:15:29] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[01:15:29] [Server thread/INFO] [FML]: Unloading dimension -1
+[01:15:29] [Server thread/INFO] [FML]: Unloading dimension 1
+[01:15:29] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+[01:15:31] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[01:15:31] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[01:15:31] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,fluidbackpack@0.1,forge@14.23.5.2768,mcp@9.42
+[01:15:31] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[01:15:31] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:15:31] [Server thread/INFO] [minecraft/PlayerList]: Player562[local:E:76b834d3] logged in with entity id 129 at (495.0572673727449, 4.0, -688.3094439248041)
+[01:15:31] [Server thread/INFO] [minecraft/MinecraftServer]: Player562 joined the game
+[01:15:32] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[01:15:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'Testing'/overworld
+[01:15:32] [pool-2-thread-1/WARN] [mojang/YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@3addd4f7[id=37815b4b-a277-3e88-89c9-687629f7c447,name=Player562,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3181) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_241]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_241]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_241]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_241]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[01:15:39] [main/WARN] [minecraft/SoundManager]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
+[01:15:41] [main/WARN] [minecraft/SoundManager]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
+[01:16:11] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[01:16:11] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'Testing'/overworld
+[01:16:12] [main/INFO] [minecraft/Minecraft]: Stopping!
+[01:16:12] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[01:16:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[01:16:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[01:16:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'Testing'/overworld
+[01:16:12] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:16:12] [Server thread/INFO] [FML]: Applying holder lookups
+[01:16:12] [Server thread/INFO] [FML]: Holder lookups applied
+[01:16:12] [main/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[01:16:12] [main/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
 
-CONFIGURE SUCCESSFUL
+BUILD SUCCESSFUL
 
-Total time: 11.703 secs
+Total time: 1 mins 12.52 secs

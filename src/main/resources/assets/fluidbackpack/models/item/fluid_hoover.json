@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fluidbackpack:item/fluid_hoover"
+  }
+}
